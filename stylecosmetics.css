@@ -5,14 +5,15 @@ body, html {
 }
 
 .background-image {
-    background-image: url('IMG/embreve.png');
-    background-size: cover; /* Isso faz com que a imagem cubra toda a área do elemento */
-    background-position: center; /* Isso centraliza a imagem */
-    height: 100%; /* Isso faz com que o contêiner ocupe toda a altura da página */
+    background-image: url("IMG/embreve.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white; /* Cor do texto para garantir que seja legível */
+    color: white;
     font-family: Arial, sans-serif;
 }
+
