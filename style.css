@@ -1,0 +1,52 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  height: 100px; /* Ajuste o tamanho conforme necessário */
+  border-radius: 50%; /* Isso fará com que a imagem tenha a forma circular */
+  margin-bottom: 20px; /* Adicione margem inferior para separar os links */
+}
+
+
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column; /* Agora a flex direction é column */
+  gap: 10px;
+  margin-top: 20px;
+  
+}
+
+.nav-link {
+  
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: block; /* Alterando para block para ficarem um embaixo do outro */
+}
+
+.nav-link:hover {
+  background-color: #686969;
+}
