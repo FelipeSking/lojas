@@ -1,0 +1,18 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background-image {
+    background-image: url('IMG/embreve.png');
+    background-size: cover; /* Isso faz com que a imagem cubra toda a área do elemento */
+    background-position: center; /* Isso centraliza a imagem */
+    height: 100%; /* Isso faz com que o contêiner ocupe toda a altura da página */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Cor do texto para garantir que seja legível */
+    font-family: Arial, sans-serif;
+}
